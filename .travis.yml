@@ -4,6 +4,7 @@ python:
 
 install:
   - pip install -r requirements.txt
+  - cd app
 
 script:
   - python manage.py test && flake8
